@@ -21,7 +21,7 @@ jobs:
         steps:
             - name: Print my name
               run: | 
-                  echo "Kaveri"
+                  echo "Deepak"
                   echo "GitHub"
 
             - name: Current folder

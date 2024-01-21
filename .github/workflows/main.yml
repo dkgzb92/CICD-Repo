@@ -11,7 +11,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
          - name: Cheking out code on runner
-           uses: actions/checkout@4
+           uses: actions/checkout@v4
 
          - name: Login and update the EC2 instances
            uses: appleboy/ssh-action@v1.0.3
